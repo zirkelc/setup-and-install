@@ -17,8 +17,8 @@ name: CI
 
 on:
   push:
-		branches:
-			- main
+    branches:
+      - main
 
 jobs:
   build-and-test:
@@ -32,7 +32,7 @@ jobs:
 
       - run: pnpm build
 
-			- run: pnpm test
+      - run: pnpm test
 ```
 
 ## Inputs
