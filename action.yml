@@ -1,4 +1,3 @@
-# https://github.com/vitest-dev/vitest/blob/main/.github/actions/setup-and-cache/action.yml
 name: Setup and Install
 description: Setup PNPM and Node.js and install dependencies
 inputs:
@@ -6,6 +5,10 @@ inputs:
     required: false
     description: Node.js version for setup-node
     default: 20
+
+branding:
+  icon: 'check-circle'
+  color: 'green'
 
 runs:
   using: composite
